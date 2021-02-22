@@ -1,0 +1,53 @@
+/*font and logo text*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+*{font-family:"Nanum Gothic";}
+#logo_text{color:#814c7d; font-size:50px; text-shadow:3px 3px 3px #af3d69;} 
+a{text-decoration:none; color:black;}
+
+/*others*/
+.navmenu{font-size:30px;}
+.navmenu:hover{text-decoration:underline; color:#814c7d; font-size:30px;}
+h6{font-size:30px;}	
+#logo_image{position:relative; left:200px; top:-100px}			
+hr{position:relative; top:-100px}
+.navmenu{position:relative; top:-100px;}
+.aside{position:fixed; float:right; background:#f5f; width:200px; height:150px;}
+li{display:inline-block; width:80px;}
+
+/*article style*/
+article{background-color:gray;}
+.article_title{font-size:45px;}
+.article_title_sub{font-size:25px}
+.article_article{text-indent:20px;}
+
+/*table style*/
+table{border:1px solid black; border-collapse:collapse; word-break:break-all; width:600px; height:150px;}
+table td, table th{border:1px solid black;}
+body{ /*gradation effect*/
+	background:linear-gradient(to left top, rgb(75, 40, 233), white);
+}
+
+body{animation-name:bgchange; animation-duration:12.5s; animation-direction:alternate; animation-iteration-count: infinite;}
+
+@keyframes bgchange {
+	from{background:red;}
+	20%{background:orange;}
+	40%{background:yellow;}
+	60%{background:green;}
+	80%{background:blue;}
+	to{background:purple;}}
+
+.comment:hover{text-decoration:underline;}
+figcaption{font-size:30px;}
+
+#mobilepage{display:none;}
+
+header, section, nav, article, footer, aside, address{display:block;}
+
+@media screen and (max-width:900px) {
+	#mobilepage{font-size:2em; background-color:red; width:200px; display:block; position:fixed; left:100; top:100;}
+	a, #logo_text, .navmenu, .aside, h6, hr, table, table td, table th, .comment, figcaption, #logoimage, article, .article_title, .article_title_sub, .article_article{display:none}
+}
+
+li{list-style-type:none; display:inline-block;}
+
