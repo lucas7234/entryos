@@ -12,7 +12,7 @@ h6{font-size:30px;}
 hr{position:relative; top:-100px}
 .navmenu{position:relative; top:-100px;}
 .aside{position:fixed; float:right; background:#f5f; width:200px; height:150px;}
-li{display:inline-block; width:80px;}
+li{display:inline-block; width:150px;}
 
 /*article style*/
 article{background-color:gray;}
