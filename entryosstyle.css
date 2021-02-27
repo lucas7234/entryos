@@ -44,10 +44,7 @@ figcaption{font-size:30px;}
 
 header, section, nav, article, footer, aside, address{display:block;}
 
-@media screen and (max-width:900px) {
-	#mobilepage{font-size:2em; background-color:red; width:200px; display:block; position:fixed; left:100; top:100;}
-	a, #logo_text, .navmenu, .aside, h6, hr, table, table td, table th, .comment, figcaption, #logoimage, article, .article_title, .article_title_sub, .article_article{display:none}
-}
+
 
 li{list-style-type:none; display:inline-block;}
 
